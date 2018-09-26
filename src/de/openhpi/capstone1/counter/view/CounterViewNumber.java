@@ -13,6 +13,6 @@ public class CounterViewNumber extends AbstractCounterView {
 	public void update() {
 		display.fill(0);
 		display.textSize(32);
-		display.text(counter.getCount() + "", 10, 30);
+		display.text(counter.getCount() + "", 10,30);
 	}
 }
